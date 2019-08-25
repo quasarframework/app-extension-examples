@@ -8,13 +8,13 @@
 
 function extendConf (conf) {
   // make sure my-ext boot file is registered
-  conf.boot.push('~quasar-app-extension-my-ext/src/boot/my-ext.js')
+  conf.boot.push('~quasar-app-extension-my-component/src/boot/register-my-component.js')
 
   // make sure boot & component files get transpiled
-  conf.build.transpileDependencies.push(/quasar-app-extension-my-ext[\\/]src/)
+  conf.build.transpileDependencies.push(/quasar-app-extension-my-component[\\/]src/)
 
   // make sure my-ext css goes through webpack to avoid ssr issues
-  conf.css.push('~quasar-app-extension-my-ext/src/component/MyComponent.styl')
+  conf.css.push('~quasar-app-extension-my-component/src/component/MyComponent.styl')
 }
 
 module.exports = function (api) {
