@@ -20,7 +20,7 @@ function extendConf (conf) {
   conf.css.push('~quasar-app-extension-my-component/src/component/MyComponent.styl')
 }
 
-const chainWebpack = function (ctx, chain, { isClient }) {
+const chainWebpack = function (ctx, chain, isClient) {
   const rule = chain.module.rule('md')
     .test(/\.md$/)
     .pre()
