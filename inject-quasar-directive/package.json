@@ -1,7 +1,7 @@
 {
-  "name": "quasar-app-extension-my-component",
+  "name": "quasar-app-extension-inject-quasar-directive",
   "version": "0.0.1",
-  "description": "Quasar UI component - MyComponent",
+  "description": "Quasar UI component - inject Quasar directive",
   "author": "Razvan Stoenescu <razvan.stoenescu@gmail.com>",
   "license": "MIT",
   "main": "src/index.js",
