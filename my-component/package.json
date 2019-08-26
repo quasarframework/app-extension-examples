@@ -1,7 +1,8 @@
 {
   "name": "quasar-app-extension-my-component",
   "version": "0.0.1",
-  "description": "Quasar UI component - MyComponent",
+  "private": true,
+  "description": "Quasar App Extension which injects a Vue component - MyComponent",
   "author": "Razvan Stoenescu <razvan.stoenescu@gmail.com>",
   "license": "MIT",
   "main": "src/index.js",
