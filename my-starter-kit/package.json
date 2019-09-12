@@ -1,7 +1,7 @@
 {
   "name": "quasar-app-extension-my-starter-kit",
   "version": "0.0.1",
-  "description": "A Quasar App Extension",
+  "description": "Quasar App Extension MyStarterKit",
   "author": "Razvan Stoenescu <razvan.stoenescu@gmail.com>",
   "license": "MIT",
   "main": "src/index.js",
@@ -18,5 +18,8 @@
     "node": ">= 8.9.0",
     "npm": ">= 5.6.0",
     "yarn": ">= 1.6.0"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.0"
   }
 }
