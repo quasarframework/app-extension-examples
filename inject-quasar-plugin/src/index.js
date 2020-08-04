@@ -14,7 +14,7 @@ function extendConf (conf) {
   conf.build.transpileDependencies.push(/quasar-app-extension-my-component[\\/]src/)
 
   // make sure my-ext css goes through webpack to avoid ssr issues
-  conf.css.push('~quasar-app-extension-my-component/src/component/MyComponent.styl')
+  conf.css.push('~quasar-app-extension-my-component/src/component/MyComponent.sass')
 
   // we push to /quasar.conf.js > framework > plugins:
   // https://quasar.dev/quasar-plugins/app-visibility
