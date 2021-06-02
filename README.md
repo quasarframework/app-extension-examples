@@ -1,7 +1,9 @@
-![Quasar Framework logo](https://cdn.quasar.dev/logo/svg/quasar-logo-full-inline.svg)
+![Quasar Framework logo](https://cdn.quasar.dev/logo-v2/header.png)
 
 # Quasar App Extension examples
 
+> Compatible with Quasar v1 (and Vue 2).
+>
 > This repo contains multiple examples of some very basic Quasar App Extensions. This is offered as a guide to help you build your own App Extensions.
 
 ## Supporting Quasar
