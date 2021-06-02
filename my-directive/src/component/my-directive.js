@@ -1,13 +1,15 @@
 export default {
-  bind (el, binding) {
+  // ...plus any other Vue directive methods
+
+  mounted (el, binding) {
     // do something
   },
 
-  update (el, binding) {
+  updated (el, binding) {
     // do something
   },
 
-  unbind (el, binding) {
+  beforeUnmount (el, binding) {
     // do something
   }
 }

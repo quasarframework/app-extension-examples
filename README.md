@@ -2,6 +2,7 @@
 
 # Quasar App Extension examples
 
+> Compatible with Quasar v2 (and Vue 3)
 > This repo contains multiple examples of some very basic Quasar App Extensions. This is offered as a guide to help you build your own App Extensions.
 
 ## Supporting Quasar

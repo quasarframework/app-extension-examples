@@ -1,5 +1,6 @@
-import Vue from 'vue'
 import MyComponent from '../component/MyComponent.vue'
 
-// we globally register our component
-Vue.component('my-component', MyComponent)
+export default ({ app }) => {
+  // we globally register our component in the app
+  app.component('my-component', MyComponent)
+}
