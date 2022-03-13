@@ -8,7 +8,13 @@
 const { existsSync } = require('fs')
 
 module.exports = function (api) {
-  api.compatibleWith('@quasar/app', '^3.0.0-beta.1')
+  if (api.hasVite === true) {
+    api.compatibleWith('@quasar/app-vite', '^1.0.0-alpha.0')
+  }
+  else {
+    // should be "@quasar/app-webpack" but that is not backward compatible
+    api.compatibleWith('@quasar/app', '^3.0.0')
+  }
 
   let pageExists = false
 

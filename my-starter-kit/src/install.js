@@ -15,9 +15,16 @@ module.exports = function (api) {
   // (Optional!)
   // Quasar compatibility check; you may need
   // hard dependencies, as in a minimum version of the "quasar"
-  // package or a minimum version of "@quasar/app" CLI
-  api.compatibleWith('quasar', '^2.0.0-beta.19')
-  api.compatibleWith('@quasar/app', '^3.0.0-beta.28')
+  // package or a minimum version of Quasar App CLI
+  api.compatibleWith('quasar', '^2.0.0')
+
+  if (api.hasVite === true) {
+    api.compatibleWith('@quasar/app-vite', '^1.0.0-alpha.0')
+  }
+  else {
+    // should be "@quasar/app-webpack" but that is not backward compatible
+    api.compatibleWith('@quasar/app', '^3.0.0')
+  }
 
   // We render some files into the hosting project
 
