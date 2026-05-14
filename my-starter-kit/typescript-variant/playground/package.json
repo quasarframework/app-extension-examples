@@ -1,0 +1,27 @@
+{
+  "name": "playground",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A Quasar App Extension Playground",
+  "author": "Razvan Stoenescu <razvan.stoenescu@gmail.com>",
+  "type": "module",
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "prepare": "quasar prepare",
+    "invoke": "quasar ext invoke my-ext",
+    "cycle": "quasar ext uninvoke my-ext && quasar ext invoke my-ext"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "quasar": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "^5.0.6"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "catalog:",
+    "@types/node": "^22.19.11",
+    "quasar-app-extension-my-ext": "workspace:*"
+  },
+  "productName": "Quasar App Extension Playground"
+}

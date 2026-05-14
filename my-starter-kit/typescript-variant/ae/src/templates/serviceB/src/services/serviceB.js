@@ -1,0 +1,3 @@
+// we do something...
+
+console.log('<%= productName %>')

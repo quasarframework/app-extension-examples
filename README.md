@@ -2,9 +2,9 @@
 
 # Quasar App Extension examples
 
-> Compatible with Quasar v2 (and Vue 3).
+> Compatible with Quasar v2 / Vue v3 / `@quasar/app-vite` v3.
 >
-> This repo contains multiple examples of some very basic Quasar App Extensions. This is offered as a guide to help you build your own App Extensions.
+> This repo contains examples of some very basic Quasar App Extensions. This is offered as a guide to help you build your own App Extensions.
 
 ## Supporting Quasar
 Quasar Framework is an MIT-licensed open source project. Its ongoing development is made possible thanks to the support by these awesome [backers](https://github.com/rstoenescu/quasar-framework/blob/dev/backers.md).

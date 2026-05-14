@@ -1,0 +1,27 @@
+{
+  "name": "quasar-app-extension",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A Quasar App Extension",
+  "author": "Razvan Stoenescu <razvan.stoenescu@gmail.com>",
+  "type": "module",
+  "scripts": {
+    "lint": "oxfmt && oxlint --fix",
+    "lint:check": "oxfmt --check && oxlint",
+    "dev": "pnpm --filter playground dev",
+    "invoke": "pnpm --filter playground invoke",
+    "cycle": "pnpm --filter playground cycle",
+    "postinstall": "pnpm --filter playground prepare"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.x",
+    "oxlint": "^1.63.0",
+    "oxlint-tsgolint": "^0.22.1",
+    "typescript": "npm:@typescript/typescript6@^6.0.0"
+  },
+  "engines": {
+    "node": "^28 || ^26 || ^24 || ^22.12",
+    "pnpm": ">= 11"
+  },
+  "productName": "Quasar App Extension"
+}
