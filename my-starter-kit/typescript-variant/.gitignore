@@ -1,0 +1,24 @@
+.DS_Store
+.thumbs.db
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# .env files
+.env*
+
+# Quasar core related directories
+/playground/.quasar
+/playground/dist
+/playground/quasar.config.*.temporary.compiled*
+
+# Cordova related directories and files
+/playground/src-cordova/node_modules
+/playground/src-cordova/platforms
+/playground/src-cordova/plugins
+/playground/src-cordova/www
+
+# Capacitor related directories and files
+/playground/src-capacitor/www
+/playground/src-capacitor/node_modules

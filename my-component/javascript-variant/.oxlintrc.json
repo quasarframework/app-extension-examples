@@ -1,0 +1,34 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+
+  "ignorePatterns": [
+    "**/node_modules/",
+    "/ae/src/templates/",
+    "/playground/dist/",
+    "/playground/quasar.config.*.temporary.compiled*",
+    "/playground/.quasar/",
+    "/playground/src-cordova/",
+    "/playground/src-capacitor/"
+  ],
+
+  "options": {
+    "maxWarnings": 10
+  },
+
+  "plugins": ["vue", "import", "eslint", "promise", "unicorn"],
+
+  "categories": {
+    "correctness": "error"
+    // "style": "error",
+    // "pedantic": "warn",
+    // "suspicious": "error",
+    // "perf": "error",
+    // "restriction": "error"
+  },
+
+  "rules": {},
+
+  "env": {
+    "builtin": true
+  }
+}
