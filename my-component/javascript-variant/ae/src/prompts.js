@@ -1,47 +1,12 @@
-/**
- * Quasar App Extension prompts script
- *
- * Docs: https://quasar.dev/app-extensions/development-guide/prompts-api
- *
- * Inquirer prompts
- * (answers are available as "api.prompts" in the other scripts)
- * https://www.npmjs.com/package/inquirer#question
- *
- * Example:
-
-  return [
-    {
-      name: 'name',
-      type: 'input',
-      required: true,
-      message: 'Quasar CLI Extension name (without prefix)',
-    },
-    {
-      name: 'preset',
-      type: 'checkbox',
-      message: 'Check the features needed for your project:',
-      choices: [
-        {
-          name: 'Install script',
-          value: 'install'
-        },
-        {
-          name: 'Prompts script',
-          value: 'prompts'
-        },
-        {
-          name: 'Uninstall script',
-          value: 'uninstall'
-        }
-      ]
-    }
-  ]
-
- */
-
 import { definePromptsScript } from '@quasar/app-vite'
 
-// can be async
-export default definePromptsScript((/* api */) => {
-  return []
+export default definePromptsScript(async (/* api */) => {
+  /**
+   * Use @clack/prompts, inquirer or whatever you want
+   * (and make sure to PNPM install the package in /ae)
+   * to prompt the user, then return the answers object
+   */
+
+  // type PromptsScriptAnswers<Key extends string = string> = Record<Key, any>
+  return {}
 })
