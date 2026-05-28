@@ -33,7 +33,7 @@
 import { ref } from 'vue'
 import { routes } from 'vue-router/auto-routes'
 
-import DrawerLink from 'components/DrawerLink.vue'
+import DrawerLink from '@/components/DrawerLink.vue'
 
 const linksList =
   routes
