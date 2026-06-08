@@ -10,7 +10,7 @@
  * things that you can do.
  */
 
-import { defineInstallScript } from '@quasar/app-vite'
+import { defineInstallScript } from '#q-app'
 
 export default defineInstallScript((api) => {
   // (Optional!)

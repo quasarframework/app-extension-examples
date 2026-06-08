@@ -5,7 +5,7 @@
  * Docs: https://quasar.dev/app-extensions/development-guide/index-api
  */
 
-import { defineIndexScript } from "@quasar/app-vite";
+import { defineIndexScript } from "#q-app";
 
 // can be async
 export default defineIndexScript(api => {

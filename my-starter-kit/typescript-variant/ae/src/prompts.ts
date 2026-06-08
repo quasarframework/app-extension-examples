@@ -3,7 +3,7 @@
  * https://quasar.dev/app-extensions/development-guide/prompts-api
  */
 
-import { definePromptsScript } from "@quasar/app-vite";
+import { definePromptsScript } from "#q-app";
 import { intro, outro, confirm, text, group, cancel } from "@clack/prompts";
 
 export default definePromptsScript(async (/* api */) => {

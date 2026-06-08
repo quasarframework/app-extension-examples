@@ -4,7 +4,7 @@
  * Docs: https://quasar.dev/app-extensions/development-guide/uninstall-api
  */
 
-import { defineUninstallScript } from "@quasar/app-vite";
+import { defineUninstallScript } from "#q-app";
 
 // we PNPM added it to our App Extension,
 // so we can import the following:

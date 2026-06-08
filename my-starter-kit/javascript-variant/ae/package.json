@@ -6,8 +6,8 @@
   "license": "MIT",
   "type": "module",
   "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+  "imports": {
+    "#q-app": "@quasar/app-vite"
   },
   "dependencies": {
     "rimraf": "^3.0.0",

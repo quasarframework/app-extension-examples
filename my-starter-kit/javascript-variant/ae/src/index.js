@@ -11,7 +11,7 @@
  * things that you can do.
  */
 
-import { defineIndexScript } from '@quasar/app-vite'
+import { defineIndexScript } from '#q-app'
 
 function extendQuasarConf (conf, api) {
   if (!conf.extras.includes('ionicons-v4')) {
