@@ -18,7 +18,7 @@ export default defineInstallScript((api) => {
   // hard dependencies, as in a minimum version of the "quasar"
   // package or a minimum version of Quasar App CLI
   api.compatibleWith("quasar", "^2.0.0");
-  api.compatibleWith("@quasar/app-vite", "^3.0.0-rc.1");
+  api.compatibleWith("@quasar/app-vite", "^3.0.0");
 
   // We render some files into the hosting project
 
